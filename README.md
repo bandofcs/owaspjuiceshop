@@ -1,1 +1,1 @@
-# owaspjuiceshop
+# OWASP Juice Shop
