@@ -30,6 +30,10 @@ cat 127_0_0_1 | grep code-200<br>
 change # to %23<br>
 http://localhost:3000/assets/public/images/uploads/%F0%9F%98%BC-%23zatschi-%23whoneedsfourlegs-1572600969477.jpg<br>
 
-### Exposed Metrics<br>
-http://localhost:3000/metrics<br>
+### Zero Stars<br>
+http://localhost:3000/#/contact<br>
+burp proxy > repeater > rating:0<br>
 
+### Repetitive Registration<br>
+http://localhost:3000/#/register<br>
+burp proxy > repeater > passwordRepeat:""<br>
