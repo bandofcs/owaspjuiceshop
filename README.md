@@ -20,3 +20,13 @@ Account Login > put ' in email and password fields<br>
 
 ### Exposed Metrics<br>
 http://localhost:3000/metrics<br>
+
+### Outdated Allowlist<br>
+gospider -v -s http://127.0.0.1:3000/ -o gospider_format --json<br> 
+
+### Exposed Metrics<br>
+http://localhost:3000/metrics<br>
+
+### Exposed Metrics<br>
+http://localhost:3000/metrics<br>
+
