@@ -22,10 +22,13 @@ Account Login > put ' in email and password fields<br>
 http://localhost:3000/metrics<br>
 
 ### Outdated Allowlist<br>
-gospider -v -s http://127.0.0.1:3000/ -o gospider_format --json<br> 
+gospider -v -s http://127.0.0.1:3000/ -o gospider_output<br>
+cd gospider_output
+cat 127_0_0_1 | grep code-200<br>
 
-### Exposed Metrics<br>
-http://localhost:3000/metrics<br>
+### Missing Encoding<br>
+change # to %23<br>
+http://localhost:3000/assets/public/images/uploads/%F0%9F%98%BC-%23zatschi-%23whoneedsfourlegs-1572600969477.jpg<br>
 
 ### Exposed Metrics<br>
 http://localhost:3000/metrics<br>
