@@ -50,3 +50,7 @@ http://localhost:3000/#/administration<br><br>
 ### Five-Star Feedback<br>
 http://localhost:3000/#/administration<br>
 delete button<br>
+
+### Empty User Registration<br>
+http://localhost:3000/#/login<br>
+burp proxy > repeater > email:"",password:"",passwordRepeat:""<br><br>
