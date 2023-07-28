@@ -46,3 +46,7 @@ password:'<br><br>
 
 ### Admin Section<br>
 http://localhost:3000/#/administration<br><br>
+
+### Five-Star Feedback<br>
+http://localhost:3000/#/administration<br>
+delete button<br>
