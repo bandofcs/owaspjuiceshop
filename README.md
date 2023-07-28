@@ -1,14 +1,14 @@
-# OWASP Juice Shop
+# OWASP Juice Shop<br>
 
-Score Board
-Firefox > Debugger > Search score > found: /score-board
+Score Board<br>
+Firefox > Debugger > Search score > found: /score-board<br>
 
-Bully Chatbot
-Menu > Support Chat > Keep spamming coupong 
+Bully Chatbot<br>
+Menu > Support Chat > Keep spamming coupong <br>
+<br>
+DOM XSS<br>
+search bar > <iframe src="javascript:alert(`xss`)"><br>
 
-DOM XSS
-search bar > <iframe src="javascript:alert(`xss`)">
-
-Bonus Payload
-Search bar > <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+Bonus Payload<br>
+Search bar > <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><br>
 
