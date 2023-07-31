@@ -2,6 +2,7 @@
 ## 1 STAR
 ### Score Board<br>
 Firefox > Debugger > Search score > found: /score-board<br><br>
+http://localhost:3000/#/score-board<br>
 
 ### Bully Chatbot<br>
 Menu > Support Chat > Keep spamming coupon <br><br>
@@ -117,3 +118,53 @@ http://localhost:3000/#/register<br>
 burp suite > proxy <br>
 Post response > role:"customer" <br>
 Post request > "role":"admin" <br>
+
+### Bjoern's Favorite Pet 
+http://localhost:3000/#/forgot-password<br>
+email:bjoern@owasp.org <br>
+secret: Zaya<br>
+
+### CAPTCHA Bypass 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
