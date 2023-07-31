@@ -4,7 +4,7 @@
 Firefox > Debugger > Search score > found: /score-board<br><br>
 
 ### Bully Chatbot<br>
-Menu > Support Chat > Keep spamming coupong <br><br>
+Menu > Support Chat > Keep spamming coupon <br><br>
 
 ### DOM XSS<br>
 search bar > <iframe src="javascript:alert(`xss`)"><br><br>
