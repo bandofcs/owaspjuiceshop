@@ -125,9 +125,9 @@ email:bjoern@owasp.org <br>
 secret: Zaya<br>
 
 ### CAPTCHA Bypass 
-
-
-
+http://localhost:3000/#/contact <br>
+burp suite > proxy > repeater <br>
+send x10
 
 
 
