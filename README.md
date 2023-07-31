@@ -84,7 +84,7 @@ burp suite > repeater<br>
 GET /rest/basket/X HTTP/1.1 <br>
 
 ### Security Policy
-
+localhost:3000/.well-known/security.txt<br>
 
 ## 3 STAR
 ### Upload type
