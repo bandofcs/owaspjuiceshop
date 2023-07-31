@@ -111,3 +111,9 @@ http://localhost:3000/#/complain <br>
 rename .txt file extension to .zip or .pdf > uoload and submit<br>
 burp suite > repeater > remove .zip to .txt extension<br>
 Content-Disposition: form-data; name="file"; filename="legal.txt.zip"<br>
+
+### Admin Registration
+http://localhost:3000/#/register<br>
+burp suite > proxy <br>
+Post response > role:"customer" <br>
+Post request > "role":"admin" <br>
