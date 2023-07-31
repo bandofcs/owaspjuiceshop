@@ -55,6 +55,29 @@ delete button<br>
 http://localhost:3000/#/login<br>
 burp proxy > repeater > email:"",password:"",passwordRepeat:""<br><br>
 
+### Empty User Registration<br>
+email:mc.safesearch@juice-sh.op<br>
+password:Mr. N00dles<br>
+
+### Meta Geo Stalking<br>
+http://localhost:3000/#/forgot-password<br>
+exiftool favorite-hiking-place.png <br>
+36°57’31.38″ N 84°20’53.58″ W <br>
+burp suite > repeater<br>
+email: john@juice-sh.op<br>
+secret:Daniel Boone National Forest<br>
+
+### Weird Crypto
+hash analyzer > 4b2e6b2618920cb1713bb801cd05401e<br>
+http://localhost:3000/#/contact <br>
+Comment: md5 > submit <br>
+
+### Visual Geo Stalking
+http://localhost:3000/#/forgot-password<br>
+http://localhost:3000/assets/public/images/uploads/IMG_4253.jpg<br>
+email: emma@juice-sh.op<br>
+secret: ITsec<br>
+
 ## 3 STAR
 ### Upload type
 http://localhost:3000/#/complain <br>
