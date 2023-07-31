@@ -78,6 +78,14 @@ http://localhost:3000/assets/public/images/uploads/IMG_4253.jpg<br>
 email: emma@juice-sh.op<br>
 secret: ITsec<br>
 
+### View Basket
+http://localhost:3000/#/basket<br>
+burp suite > repeater<br>
+GET /rest/basket/X HTTP/1.1 <br>
+
+### Security Policy
+
+
 ## 3 STAR
 ### Upload type
 http://localhost:3000/#/complain <br>
