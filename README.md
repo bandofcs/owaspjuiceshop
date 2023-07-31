@@ -97,6 +97,14 @@ rename .xml file extension to .zip or .pdf > uoload and submit<br>
 burp suite > repeater > remove .zip to .xml extension<br>
 Content-Disposition: form-data; name="file"; filename="legal.xml.zip"<br>
 
+### Login Admin
+http://localhost:3000/#/login<br>
+email:admin@juice-sh.op
+burp suite > intruder > 
+positions: password
+attack type: sniper
+payloads > usr/share/wordlist/fern-wifi/common.txt
+
 ## 3 STAR
 ### Upload type
 http://localhost:3000/#/complain <br>
