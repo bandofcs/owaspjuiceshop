@@ -54,3 +54,10 @@ delete button<br>
 ### Empty User Registration<br>
 http://localhost:3000/#/login<br>
 burp proxy > repeater > email:"",password:"",passwordRepeat:""<br><br>
+
+## 3 STAR
+### Upload type
+http://localhost:3000/#/complain <br>
+rename file extension to .zip or .pdf > uoload and submit<br>
+burp suite > repeater > remove .zip to original extension<br>
+Content-Disposition: form-data; name="file"; filename="legal.md.zip"<br>
