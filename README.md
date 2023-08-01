@@ -11,8 +11,10 @@ Menu > Support Chat > Keep spamming coupon <br><br>
 search bar > <iframe src="javascript:alert(`xss`)"><br><br>
 
 ### Bonus Payload<br>
-Search bar > <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><br><br>
-
+Search bar <br>
+```
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+```
 ### Confidential Document<br>
 http://localhost:3000/ftp > acquisitions.md<br><br>
 
@@ -94,10 +96,10 @@ sudo npm -g install js-beautify<br>
 js-beautify main.js > main1.js<br>
 grep pdf main1.js<br>
 ```
-allowedMimeType: ["application/pdf", "application/xml", "text/xml", "application/zip", "application/x-zip-compressed", "multipart/x-zip"],["ng2FileSelect", "", "id", "file", "type", "file", "accept", ".pdf,.zip", "aria-label", "Input area for uploading a single invoice PDF or XML B2B order file or a ZIP archive containing multiple invoices or orders\x3c!----\x3e", 2, "margin-left", "10px", 3, "uploader"]<br>
-rename .xml file extension to .zip or .pdf > uoload and submit<br>
-burp suite > repeater > remove .zip to .xml extension<br>
-Content-Disposition: form-data; name="file"; filename="legal.xml.zip"<br>
+allowedMimeType: ["application/pdf", "application/xml", "text/xml", "application/zip", "application/x-zip-compressed", "multipart/x-zip"],["ng2FileSelect", "", "id", "file", "type", "file", "accept", ".pdf,.zip", "aria-label", "Input area for uploading a single invoice PDF or XML B2B order file or a ZIP archive containing multiple invoices or orders\x3c!----\x3e", 2, "margin-left", "10px", 3, "uploader"]
+rename .xml file extension to .zip or .pdf > uoload and submit
+burp suite > repeater > remove .zip to .xml extension
+Content-Disposition: form-data; name="file"; filename="legal.xml.zip"
 ```
 ### Login Admin
 http://localhost:3000/#/login<br>
