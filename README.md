@@ -93,11 +93,12 @@ sudo apt install npm<br>
 sudo npm -g install js-beautify<br>
 js-beautify main.js > main1.js<br>
 grep pdf main1.js<br>
+```
 allowedMimeType: ["application/pdf", "application/xml", "text/xml", "application/zip", "application/x-zip-compressed", "multipart/x-zip"],["ng2FileSelect", "", "id", "file", "type", "file", "accept", ".pdf,.zip", "aria-label", "Input area for uploading a single invoice PDF or XML B2B order file or a ZIP archive containing multiple invoices or orders\x3c!----\x3e", 2, "margin-left", "10px", 3, "uploader"]<br>
 rename .xml file extension to .zip or .pdf > uoload and submit<br>
 burp suite > repeater > remove .zip to .xml extension<br>
 Content-Disposition: form-data; name="file"; filename="legal.xml.zip"<br>
-
+```
 ### Login Admin
 http://localhost:3000/#/login<br>
 email:admin@juice-sh.op<br>
