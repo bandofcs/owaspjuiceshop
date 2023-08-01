@@ -100,11 +100,9 @@ Content-Disposition: form-data; name="file"; filename="legal.xml.zip"<br>
 
 ### Login Admin
 http://localhost:3000/#/login<br>
-email:admin@juice-sh.op
-burp suite > intruder > 
-positions: password
-attack type: sniper
-payloads > usr/share/wordlist/fern-wifi/common.txt
+email:admin@juice-sh.op<br>
+burp suite > intruder > positions: password > attack type: sniper<br>
+payloads > usr/share/wordlist/fern-wifi/common.txt <br>
 
 ## 3 STAR
 ### Upload type
@@ -127,13 +125,13 @@ secret: Zaya<br>
 ### CAPTCHA Bypass 
 http://localhost:3000/#/contact <br>
 burp suite > proxy > repeater <br>
-send x10
+send x10 <br>
 
 ### CSRF
-download firefox 96.0
-http://localhost:3000/profile > login into account
-http://htmledit.squarefree.com/
-submit form:
+download firefox 96.0<br>
+http://localhost:3000/profile > login into account<br>
+http://htmledit.squarefree.com/<br>
+submit form:<br>
 ```
 <form action="http://localhost:3000/profile" method="POST">
   <input name="username" value="CSRF"/>
