@@ -143,9 +143,24 @@ submit form: <br>
 <script>document.forms[0].submit();</script>
 ```
 
+### Database schema
 
+### Upload size
 
+### Reset Jim's Password 
+http://localhost:3000/#/forgot-password<br>
+email:jim@juice-sh.op<br>
+secret: Samuel<br>
 
+###  Forged Review 
+add review for item<br>
+burp suite > proxy<br>
+"author":"emma@juice-sh.op"<br>
+
+### Login Bender
+http://localhost:3000/#/login<br>
+email: bender@juice-sh.op'--<br>
+password: '<br>
 
 
 
