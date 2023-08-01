@@ -128,10 +128,10 @@ burp suite > proxy > repeater <br>
 send x10 <br>
 
 ### CSRF
-download firefox 96.0<br>
-http://localhost:3000/profile > login into account<br>
-http://htmledit.squarefree.com/<br>
-submit form:<br>
+download firefox 96.0 <br>
+http://localhost:3000/profile > login into account <br>
+http://htmledit.squarefree.com/ <br>
+submit form: <br>
 ```
 <form action="http://localhost:3000/profile" method="POST">
   <input name="username" value="CSRF"/>
