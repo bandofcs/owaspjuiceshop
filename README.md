@@ -251,8 +251,11 @@ Comment: Hueteroneel Eurogium Edule<br>
 http://localhost:3000/ftp<br>
 GET /ftp/package.json.bak%2500.md HTTP/1.1<br>
 http://localhost:3000/#/contact<br>
-Commentmarsdb ~0.6,grunt ~1.0,express-jwt 0.1.3,js-yaml 3.10,sequelize ~4,sanitize-html 1.4.2,socket.io ~2.0<br>
+Comment:marsdb ~0.6,grunt ~1.0,express-jwt 0.1.3,js-yaml 3.10,sequelize ~4,sanitize-html 1.4.2,socket.io ~2.0<br>
 
+### Legacy Typosquatting
+http://localhost:3000/#/contact<br>
+comment: epilogue-js<br>
 
 
 
