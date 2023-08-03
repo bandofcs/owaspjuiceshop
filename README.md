@@ -335,9 +335,14 @@ eslint-scope 3.7.2<br>
 http://localhost:3000/#/contact<br>
 comment:https://github.com/eslint/eslint-scope/issues/39<br>
 
-
-
-
+### Retrieve Blueprint
+http://localhost:3000/rest/admin/application-configuration<br>
+firefox > network<br>
+search: blueprint<br>
+fileForRetrieveBlueprintChallenge	"JuiceShop.stl"<br>
+firefox > inspector > search: 3d_keychain.jpg<br>
+replace JuiceShop.stl<br>
+<img _ngcontent-fpo-c46="" mat-card-image="" role="button" class="mat-card-image img-responsive img-thumbnail" alt="OWASP Juice Shop Logo (3D-printed)" src="assets/public/images/products/JuiceShop.stl"><br>
 
 
 
