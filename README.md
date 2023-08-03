@@ -319,8 +319,9 @@ http://localhost:3000/#/forgot-password<br>
 email:bender@juice-sh.op<br>
 secret:Stop'n'Drop<br>
 
-
-
+### Access logs
+bash > ffuf -w /usr/share/wordlists/dirb/common.txt -u http://localhost:3000/support/FUZZ -fs 1987
+http://localhost:3000/support/Logs
 
 
 
