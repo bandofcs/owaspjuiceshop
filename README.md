@@ -310,10 +310,14 @@ GET /rest/products/search?q=apple'))union%20select%20id,username,email,password,
 
 ### Reset Uvogin Password
 http://localhost:3000/#/forgot-password<br>
-https://web.archive.org/web/20200403193744/https://twitter.com/uv0gin
+https://web.archive.org/web/20200403193744/https://twitter.com/uv0gin<br>
 email: uvogin@juice-sh.op<br>
-secret: Silence of the Lambs
+secret: Silence of the Lambs<br>
 
+### Reset Bender's Password
+http://localhost:3000/#/forgot-password<br>
+email:bender@juice-sh.op<br>
+secret:Stop'n'Drop<br>
 
 
 
